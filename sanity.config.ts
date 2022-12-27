@@ -6,10 +6,13 @@ import {markdownSchema} from 'sanity-plugin-markdown'
 
 export default defineConfig({
   name: 'default',
-  title: 'leerob.io',
-  projectId: '56a8ffnw',
+  title: 'sanity-blog',
+
+  projectId: 'pw60u7vf',
   dataset: 'production',
+
   plugins: [deskTool(), markdownSchema()],
+
   schema: {
     types: [
       {
